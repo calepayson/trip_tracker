@@ -1,2 +1,3 @@
 venv/
 mouse_trip.*
+trip_tracker/__*
