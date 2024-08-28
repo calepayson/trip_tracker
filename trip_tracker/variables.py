@@ -1,3 +1,11 @@
+#############
+# VARIABLES #
+#############
+'''
+Set the global variables for the program.
+@author: calepayson
+'''
+
 from rectangle import Rectangle
 
 # The name of the h5 file containing the mouse tracking coordinates

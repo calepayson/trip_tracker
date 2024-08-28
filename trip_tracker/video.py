@@ -1,3 +1,11 @@
+#########
+# VIDEO #
+#########
+'''
+Handle interfacing with the video file.
+@author: calepayson
+'''
+
 import cv2
 import sys
 from mouse import MouseMetadata

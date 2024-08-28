@@ -1,3 +1,11 @@
+#############
+# INGESTION #
+#############
+'''
+Handles reading and cleaning of the h5 data.
+@author: calepayson
+'''
+
 import h5py
 import pandas as pd
 from variables import BODY_PART_LABELS, COORDINATE_LABELS, LIKELIHOOD_THRESHOLD

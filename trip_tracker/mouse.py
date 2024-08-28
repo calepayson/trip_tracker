@@ -1,3 +1,11 @@
+#########
+# MOUSE #
+#########
+'''
+Handles all the mouse-related metadata calculation
+@author: calepayson
+'''
+
 import pandas as pd
 import numpy as np
 from variables import BODY_PART_LABELS, CENTER_RECT, FRAMES_PER_SECOND
@@ -17,8 +25,8 @@ class MouseMetadata:
         # dictionary containing the desired attribute for each body part
         self.time_in_center: dict[str, float] | None = None
         self.time_on_outside: dict[str, float] | None = None
-        self.average_velocity: dict[str, float] | None = None
         self.total_distance: dict[str, float] | None = None
+        self.average_velocity: dict[str, float] | None = None
 
     def calculate_time_in_center(self):
         self.time_in_center = {}
