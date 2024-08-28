@@ -6,6 +6,14 @@ Trip tracker processes mouse tracking data and computes metadata.
 
 Trip tracker contains a number of small but useful libraries and a main.py file that is meant to be tinkered with. This should allow new users to get up to speed quickly without having to learn the libraries relevant to each file type and data structure used. 
 
+To get started clone the repo and then run:
+
+```bash
+pip install -r requirements.txt
+```
+
+in an environment of your choice to download all the required libraries.
+
 **Basic adjustment of this program is done with the global variables in variables.py**
 
 This program revolves around the MouseMetadata object which has the following structure:
