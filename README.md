@@ -22,8 +22,13 @@ The user must handle output. For example, if they want to write the metadata to 
 ## Structure
 
 **main.py** - The main workspace. 
+
 **ingestion.py** - Data ingestion. Contains functions to read and process data from an h5 file.
+
 **mouse.py** - Defines the MouseMetadata class. This is a good library to read through if you want to understand the program.
+
 **rectangle.py** - This has a rectangle class.
+
 **variables.py** - Contains all the global variables used to adjust the program.
+
 **video.py** - Handles reading and annotating the mouse videos.
